@@ -1,8 +1,12 @@
+import Header from './components/Header';
+import Hero from './components/Hero';
+
 function App() {
   return (
-    <>
-      <p className="bg-primary text-5xl font-black">test</p>
-    </>
+    <div className='container mx-auto'>
+      <Header />
+      <Hero />
+    </div>
   );
 }
 
