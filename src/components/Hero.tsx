@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative w-full h-57.5 md:max-h-91 md:max-w-140 xl:h-125 bg-gray-100 rounded-2xl overflow-hidden justify-self-center">
+          <div className="relative w-full h-55 sm:h-100 md:h-125 bg-gray-100 rounded-2xl overflow-hidden justify-self-center">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.511516858!2d101.617444!3d3.139003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc362abd08e337%3A0x1019cb37e21e9c8!2sKuala%20Lumpur%2C%20Federal%20Territory%20of%20Kuala%20Lumpur%2C%20Malaysia!5e0!3m2!1sen!2s!4v1699296000000!5m2!1sen!2s"
               width="100%"

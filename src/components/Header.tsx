@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header
-      className={`sticky top-0 left-0 right-0 bg-white z-50 min-h-20 flex items-center px-10 lg:px-20
+      className={`flex sm:sticky top-0 left-0 right-0 bg-white z-50 min-h-20 items-center px-10 lg:px-20
         ${isScrolled ? "border-b border-gray-100" : ""}`}
     >
       <div className="flex justify-between items-center w-full">
