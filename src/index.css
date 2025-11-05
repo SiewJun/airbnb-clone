@@ -3,7 +3,8 @@
 @theme inline {
   --color-primary: #FF385C;
   --color-foreground: #222222;
-  --color-foreground-light: #6a6a6a;
+  --color-foreground-light: #6A6A6A;
+  --color-muted: #F7F7F7
 }
 
 @layer utilities {
