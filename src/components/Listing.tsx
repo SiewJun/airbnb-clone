@@ -25,13 +25,13 @@ const Listing = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-14">
-            
+
             <div className="flex sm:pr-3.5 sm:flex-col items-center text-center">
               <div className="mb-4 mr-3.5 sm:pr-0 bg-muted w-12 h-12 flex justify-center items-center rounded-lg shrink-0">
                 <Home className="w-5 h-5 text-gray-700" strokeWidth={1.5} />
               </div>
               <div>
-                <h3 className="text-base sm:text-lg font-normal mb-2 text-start">
+                <h3 className="text-base sm:text-lg font-normal mb-2 text-start sm:text-center">
                   Create a listing for your
                   <br className="hidden sm:inline" />
                   place in just a few steps
@@ -44,7 +44,7 @@ const Listing = () => {
                 <Clock className="w-5 h-5 text-gray-700" strokeWidth={1.5} />
               </div>
               <div>
-                <h3 className="text-base sm:text-lg font-normal mb-2 text-start">
+                <h3 className="text-base sm:text-lg font-normal mb-2 text-start sm:text-center">
                   Go at your own pace, and
                   <br className="hidden sm:inline" />
                   make changes whenever
@@ -60,7 +60,7 @@ const Listing = () => {
                 />
               </div>
               <div>
-                <h3 className="text-base sm:text-lg font-normal mb-2 text-start">
+                <h3 className="text-base sm:text-lg font-normal mb-2 text-start sm:text-center">
                   Get 1:1 support from
                   <br className="hidden sm:inline" />
                   experienced hosts at any time
