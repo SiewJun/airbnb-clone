@@ -1,6 +1,15 @@
 import { SearchIcon } from "lucide-react";
+import { useState } from "react";
 
 const Hero = () => {
+  const [nights, setNights] = useState(12);
+  const pricePerNight = 214;
+  const totalEarnings = nights * pricePerNight;
+
+  const handleSliderChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setNights(Number(e.target.value));
+  };
+
   return (
     <section>
       <div className="px-6 sm:px-10 lg:px-20">
@@ -10,25 +19,44 @@ const Hero = () => {
               <h1 className="text-4xl md:text-5xl xl:text-6xl font-semibold text-center leading-none whitespace-nowrap">
                 Your home could
                 <br />
-                <span>make RM1,500</span>
+                <span>make RM{totalEarnings.toLocaleString()}</span>
                 <br />
                 on Airbnb
               </h1>
             </div>
 
             <div className="mb-9">
-              <div className="flex flex-col items-center gap-1 justify-center">
+              <div className="flex flex-col items-center justify-center">
                 <div>
-                  <span className="text-lg font-medium underline cursor-pointer">
-                    7 nights
+                  <span className="text-lg font-medium px-4 py-1.5 ">
+                    {nights} nights
                   </span>
-                  <span className="text-lg font-medium">· RM219/night</span>
+                  <span className="text-lg font-medium ml-2">
+                    · RM{pricePerNight}/night
+                  </span>
                 </div>
-                <div>
+                <div className="mb-8">
                   <p className="text-sm font-light text-foreground-light">
-                    Learn how we{" "}
-                    <span className="underline">estimate earnings</span>
+                    Learn how we
+                    <span className=" pl-1 underline cursor-pointer">
+                      estimate earnings
+                    </span>
                   </p>
+                </div>
+                <div className="w-full max-w-md px-4">
+                  <input
+                    type="range"
+                    min="1"
+                    max="30"
+                    value={nights}
+                    onChange={handleSliderChange}
+                    className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
+                    style={{
+                      background: `linear-gradient(to right, #FF385C 0%, #FF385C ${
+                        ((nights - 1) / 29) * 100
+                      }%, #E5E7EB ${((nights - 1) / 29) * 100}%, #E5E7EB 100%)`,
+                    }}
+                  />
                 </div>
               </div>
             </div>
@@ -40,7 +68,8 @@ const Hero = () => {
                   <div className="flex-1 xl:flex items-center">
                     <p className="text-base font-medium">Kuala Lumpur</p>
                     <span className="text-base font-light text-foreground-light ml-1">
-                      <span className="hidden xl:inline-block">·</span> Entire place · 2 bedrooms
+                      <span className="hidden xl:inline-block">·</span> Entire
+                      place · 2 bedrooms
                     </span>
                   </div>
                 </div>
