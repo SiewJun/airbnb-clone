@@ -15,6 +15,7 @@ const Card = ({ imageUrl, title, description, rating, years }: CardProps) => {
             src={imageUrl}
             alt={title}
             className="w-full h-full object-cover"
+            lazy-loading
           />
         </div>
       </div>
