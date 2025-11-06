@@ -64,7 +64,7 @@ const CoHost = () => {
           </div>
         </div>
 
-        <div className="lg:hidden space-y-6 overflow-hidden -mx-6 sm:-mx-20">
+        <div className="lg:hidden space-y-6 overflow-hidden -mx-6 sm:-mx-30 md:-mx-10">
           <div
             ref={row1Ref}
             className="flex gap-6 transition-transform duration-100"

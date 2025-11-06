@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #FF385C;
+  --color-primary: #ff385c;
   --color-foreground: #222222;
-  --color-foreground-light: #6A6A6A;
-  --color-muted: #F7F7F7
+  --color-foreground-light: #6a6a6a;
+  --color-muted: #f7f7f7;
 }
 
 @layer utilities {
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
   }
-  
+
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -19,48 +19,54 @@
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_Bk.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_Bk.otf")
+    format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_Lt.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_Lt.otf")
+    format("opentype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_Md.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_Md.otf")
+    format("opentype");
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_Bd.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_Bd.otf")
+    format("opentype");
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_XBd.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_XBd.otf")
+    format("opentype");
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Airbnb Cereal';
-  src: url('./assets/font/airbnb-cereal/AirbnbCereal_W_Blk.otf') format('opentype');
+  font-family: "Airbnb Cereal";
+  src: url("./assets/font/airbnb-cereal/AirbnbCereal_W_Blk.otf")
+    format("opentype");
   font-weight: 900;
   font-style: normal;
 }
 
 body {
-  font-family: 'Airbnb Cereal', sans-serif;
-  color: var(--color-foreground)
+  font-family: "Airbnb Cereal", sans-serif;
+  color: var(--color-foreground);
 }

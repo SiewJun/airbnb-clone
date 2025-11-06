@@ -25,7 +25,7 @@ const HostingTools = () => {
     <section>
       <div className="px-6 sm:px-10 lg:px-20 lg:pb-40">
         <div className="text-center pb-14">
-          <h2 className="text-4xl md:text-5xl font-semibold mb-4 leading-none whitespace-nowrap">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 leading-none whitespace-nowrap">
             All the tools you need
             <br />
             to host, all in one app

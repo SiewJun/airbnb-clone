@@ -119,7 +119,7 @@ const FAQ = () => {
       <div>
         <hr className="border-t border-gray-300" />
       </div>
-      <div className="sm:px-10 lg:px-20 py-8 text-sm font-normal leading-relaxed">
+      <div className="px-6 sm:px-10 lg:px-20 py-8 text-sm font-normal leading-relaxed">
         <p>
           Hosts on the Co-Host Network typically have high ratings, low
           cancellation rates, and established Airbnb hosting experience. Ratings
