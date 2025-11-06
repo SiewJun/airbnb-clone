@@ -5,6 +5,7 @@ import CoHost from "./components/CoHost";
 import AirCover from "./components/AirCover";
 import HostingTools from "./components/HostingTools";
 import ApartmentHosting from "./components/ApartmentHosting";
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <AirCover />
         <HostingTools />
         <ApartmentHosting />
+        <FAQ />
       </div>
     </>
   );

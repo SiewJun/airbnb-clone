@@ -48,12 +48,14 @@ const AirCover = () => {
           </div>
 
           <div className="flex justify-center mt-12 pb-14">
-            <a
-              href="/co-hosts/home"
-              className="bg-gray-900 text-white px-8 py-4 text-lg font-medium min-w-75 text-center inline-block rounded-full"
-            >
-              Learn about Aircover
-            </a>
+            <button>
+              <a
+                href="/"
+                className="bg-gray-900 text-white px-8 py-4 text-lg font-medium min-w-75 text-center inline-block rounded-full"
+              >
+                Learn about Aircover
+              </a>
+            </button>
           </div>
 
           <div className="flex text-center justify-center pb-22 sm:pb-30 max-w-130 mx-auto">

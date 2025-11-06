@@ -33,9 +33,7 @@ const ApartmentHosting = () => {
           </div>
         </div>
       </div>
-      <div className="sm:px-10 lg:px-20">
-        <hr className="border-t border-gray-300" />
-      </div>
+
     </section>
   );
 };

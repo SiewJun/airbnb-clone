@@ -82,7 +82,7 @@ const HostingTools = () => {
       </div>
       <div className="sm:px-10 lg:px-20">
         <hr className="border-t border-gray-300 mt-8 " />
-      </div>{" "}
+      </div>
     </section>
   );
 };
