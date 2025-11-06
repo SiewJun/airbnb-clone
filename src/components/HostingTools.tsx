@@ -37,13 +37,13 @@ const HostingTools = () => {
           {tools.map((tool, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl p-6 flex flex-col items-center"
+              className="rounded-2xl p-6 flex flex-col items-center"
             >
               <div className="mb-6">
                 <img
                   src={tool.image}
                   alt={tool.title}
-                  className="w-full max-w-xs h-auto object-contain rounded-xl"
+                  className="w-full max-w-xs h-auto object-contain rounded-xl bg-muted"
                   loading="lazy"
                 />
               </div>
@@ -61,13 +61,13 @@ const HostingTools = () => {
             {tools.map((tool, index) => (
               <div
                 key={index}
-                className="bg-muted rounded-xl flex flex-col items-center min-w-[280px] sm:min-w-[320px] shrink-0"
+                className=" rounded-xl flex flex-col items-center min-w-[280px] sm:min-w-[320px] shrink-0"
               >
                 <div className="mb-6">
                   <img
                     src={tool.image}
                     alt={tool.title}
-                    className="w-full max-w-xs h-auto object-contain rounded-xl"
+                    className="w-full max-w-xs h-auto object-contain rounded-xl bg-muted"
                     loading="lazy"
                   />
                 </div>
