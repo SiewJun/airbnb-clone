@@ -8,7 +8,7 @@ const AirCover = () => {
   ];
 
   return (
-    <section className="py-12">
+    <section>
       <div className="px-6 sm:px-10 lg:px-20">
         <div>
           <div className="flex justify-center">
